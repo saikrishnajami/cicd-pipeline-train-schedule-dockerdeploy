@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         } 
-        stage('Push docker imagge') {
+        stage('Push docker image') {
             when {
                 branch 'master'
             }
